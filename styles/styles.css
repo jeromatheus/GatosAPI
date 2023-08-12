@@ -1,0 +1,52 @@
+.container h2{
+    text-align: center;
+    color: rgb(228, 150, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .row img{
+    border-radius: 100px;
+    height: 250px;
+    width: 250px;
+    border-style: groove;
+    border: rgb(139, 139, 139) 5px solid;
+    display: block;
+}
+
+#btnSave, #btnUnsave{
+    font-size: 1.3em;
+    border: none;
+    position: relative;
+    bottom: 240px;
+    background-color: transparent;
+}
+
+#btnSave:hover, #btnUnsave:hover{
+    font-size: 1.45em;
+    animation: headShake; 
+    animation-duration: 10s; 
+}
+
+#btnSave i, #btnUnsave i{
+    color: rgba(185, 4, 4, 0.925);
+    position: relative;
+}
+
+button#btnRandom{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    width: 200px;
+    border-radius: 150px;
+    background-color:rgb(228, 150, 5);
+    border: 2px solid dotted black;
+}
+
+#imagenesFavoritas{
+    background-color: blanchedalmond;
+    display: inline-block;
+    width: 350px;
+}
+
+#uploadCatForm{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
